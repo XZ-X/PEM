@@ -1,5 +1,5 @@
 # README
-![fig](https://zenodo.org/badge/DOI/10.5281/zenodo.8271984.svg)
+[![fig](https://zenodo.org/badge/DOI/10.5281/zenodo.8271984.svg)](https://zenodo.org/record/8271984)
 
 This repository contains the artifacts of PEM.
 We provide a runnable docker image for the artifact evaluation.
