@@ -1,0 +1,23 @@
+PEM is applying for the following badges:
+
+1. Available. We make PEM available on GitHub and also provide a docker image on Docker Hub.
+
+2. Functional. We provide detailed instructions for reproducing the results in the paper.
+
+3. Reusable. 
+
+(1) We provide a runnable docker image that makes PEM easy to access.
+
+(2) We not only provide the source code, but also provide an introduction to the core components of PEM (in `README-dev.md`).
+
+(3) PEM is built on top of a well-known open-source project QEMU.
+Further extension and development can be easily done on top of PEM.
+To illustrate this point, we added AArch64 support to PEM with only around 200 lines of code.
+Details are in Section 4.4 of the paper.
+
+(4) Besides the specific use case of binary similarity, the probabilistic execution engine
+of PEM can be easily modified to support other use cases.
+It's essentially a dynamic analysis engine on QEMU's intermediate language.
+Users can easily hook almost any operations (e.g., memory access, function call, etc.)
+and redirect the execution flow with their own strategy.
+

@@ -1,0 +1,30 @@
+#!/bin/bash
+
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.sdiff_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_coreutils_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_findutils470.find_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_findutils470.locate_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_openssl101f_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libmagick7_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libz_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_findutils470.locate_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libcurl460_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libsqlite3_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.sdiff_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.cmp_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_openssl101f_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.diff_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_libgmp620_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libsqlite3_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.diff3_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.diff3_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_libgmp620_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_findutils470.xargs_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_coreutils_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_findutils470.find_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libcurl460_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.diff_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libz_O2O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_diffutils37.cmp_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval2_libmagick7_O0O3.csv.formatted.csv
+python3 eval-scripts/sample_and_score_csv.py ml-baseline-results/trex/similarity_eval3_findutils470.xargs_O0O3.csv.formatted.csv

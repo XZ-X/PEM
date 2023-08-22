@@ -1,0 +1,14 @@
+===Artifact Evaluation===
+For the artifact evaluation, PEM requires `docker` to be installed.
+We provide a runnable docker image for the artifact evaluation.
+We recommend using a machine with at least 100GB of RAM and 8 CPU cores.
+Most of the experiments should also work on a machine with 32GB of RAM and 4 CPU cores.
+
+Running all the experiments may need around 200GB of disk space.
+That is because PEM records the detailed execution information for further analysis.
+The space usage can be reduced with minor engineering efforts.
+We will improve it in the future.
+
+
+===Further Development===
+Please refer to `README-dev.md` for the instructions of compiling PEM from the source code.

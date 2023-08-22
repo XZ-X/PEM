@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package binfo;
+
+message Branch {
+  uint64 addr = 1;
+  int64 selectivity = 2;
+}
+
+message Round {
+  uint64 seed = 1;
+  repeated Branch branches = 2;
+}
+
+message Function {
+  uint64 addr = 1;
+  repeated Round rounds = 2;
+}
+
+message Result {
+  repeated Function funcs = 1;
+}

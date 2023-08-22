@@ -1,0 +1,58 @@
+PEM_HELPER(helper_str_indicator)
+PEM_HELPER(helper_sxtb16)
+PEM_HELPER(helper_uxtb16)
+PEM_HELPER(helper_add_saturate)
+PEM_HELPER(helper_sub_saturate)
+PEM_HELPER(helper_add_usaturate)
+PEM_HELPER(helper_sub_usaturate)
+PEM_HELPER(helper_sdiv)
+PEM_HELPER(helper_udiv)
+PEM_HELPER(helper_rbit)
+
+#define PAS_OP(pfx)  \
+    PEM_HELPER(helper_ ## pfx ## add8) \
+    PEM_HELPER(helper_ ## pfx ## sub8) \
+    PEM_HELPER(helper_ ## pfx ## sub16) \
+    PEM_HELPER(helper_ ## pfx ## add16) \
+    PEM_HELPER(helper_ ## pfx ## addsubx) \
+    PEM_HELPER(helper_ ## pfx ## subaddx)
+
+PAS_OP(s)
+PAS_OP(u)
+PAS_OP(q)
+PAS_OP(sh)
+PAS_OP(uq)
+PAS_OP(uh)
+#undef PAS_OP
+
+PEM_HELPER(helper_ssat)
+PEM_HELPER(helper_usat)
+PEM_HELPER(helper_ssat16)
+PEM_HELPER(helper_usat16)
+PEM_HELPER(helper_usad8)
+PEM_HELPER(helper_sel_flags)
+
+PEM_HELPER(helper_exception_internal)
+PEM_HELPER(helper_exception_with_syndrome)
+PEM_HELPER(helper_exception_bkpt_insn)
+PEM_HELPER(helper_setend)
+PEM_HELPER(helper_wfi)
+PEM_HELPER(helper_wfe)
+PEM_HELPER(helper_yield)
+PEM_HELPER(helper_pre_hvc)
+PEM_HELPER(helper_pre_smc)
+
+PEM_HELPER(helper_cpsr_write)
+PEM_HELPER(helper_cpsr_write_eret)
+PEM_HELPER(helper_cpsr_read)
+
+PEM_HELPER(helper_shl_cc)
+PEM_HELPER(helper_shr_cc)
+PEM_HELPER(helper_sar_cc)
+PEM_HELPER(helper_ror_cc)
+
+PEM_HELPER(helper_udiv64)
+PEM_HELPER(helper_sdiv64)
+PEM_HELPER(helper_rbit64)
+PEM_HELPER(helper_crc32_64)
+PEM_HELPER(helper_crc32c_64)

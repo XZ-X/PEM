@@ -1,0 +1,34 @@
+#!/bin/bash -x
+
+python3 py-scripts/compare.py --src eval-dataset/eval-coreutils/coreutils.clang12.O2.elf --tgt eval-dataset/eval-coreutils/coreutils.clang12.O3.elf --fout cmp-ret/eval-coreutils/coreutils.clang12O2.vs.clang12O3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-coreutils/coreutils.clang12.O0.elf --tgt eval-dataset/eval-coreutils/coreutils.clang12.O3.elf --fout cmp-ret/eval-coreutils/coreutils.clang12O0.vs.clang12O3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-coreutils/coreutils.clang12.O0.elf --tgt eval-dataset/eval-coreutils/coreutils.gcc94.O3.elf --fout cmp-ret/eval-coreutils/coreutils.clang12O0.vs.gcc94O3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-coreutils/coreutils.gcc94.O0.elf --tgt eval-dataset/eval-coreutils/coreutils.clang12.O3.elf --fout cmp-ret/eval-coreutils/coreutils.gcc94O0.vs.clang12O3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-coreutils/coreutils.gcc94.O0.elf --tgt eval-dataset/eval-coreutils/coreutils.gcc94.O3.elf --fout cmp-ret/eval-coreutils/coreutils.gcc94O0.vs.gcc94O3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-coreutils/coreutils.gcc94.O2.elf --tgt eval-dataset/eval-coreutils/coreutils.gcc94.O3.elf --fout cmp-ret/eval-coreutils/coreutils.gcc94O2.vs.gcc94O3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.cmp.O0.elf --tgt eval-dataset/eval-how-help/diff37.cmp.O3.elf --fout cmp-ret/eval-how-help/diff37.cmp.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.diff.O0.elf --tgt eval-dataset/eval-how-help/diff37.diff.O3.elf --fout cmp-ret/eval-how-help/diff37.diff.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.diff3.O0.elf --tgt eval-dataset/eval-how-help/diff37.diff3.O3.elf --fout cmp-ret/eval-how-help/diff37.diff3.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.sdiff.O0.elf --tgt eval-dataset/eval-how-help/diff37.sdiff.O3.elf --fout cmp-ret/eval-how-help/diff37.sdiff.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/find47.find.O0.elf --tgt eval-dataset/eval-how-help/find47.find.O3.elf --fout cmp-ret/eval-how-help/find47.find.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/find47.locate.O0.elf --tgt eval-dataset/eval-how-help/find47.locate.O3.elf --fout cmp-ret/eval-how-help/find47.locate.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/find47.xargs.O0.elf --tgt eval-dataset/eval-how-help/find47.xargs.O3.elf --fout cmp-ret/eval-how-help/find47.xargs.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libcurl460.so.O0.elf --tgt eval-dataset/eval-trex/libcurl460.so.O3.elf --fout cmp-ret/eval-trex/libcurl460.so.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libgmp620.so.O0.elf --tgt eval-dataset/eval-trex/libgmp620.so.O3.elf --fout cmp-ret/eval-trex/libgmp620.so.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libmagick7.so.O0.elf --tgt eval-dataset/eval-trex/libmagick7.so.O3.elf --fout cmp-ret/eval-trex/libmagick7.so.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libsqlite3.so.O0.elf --tgt eval-dataset/eval-trex/libsqlite3.so.O3.elf --fout cmp-ret/eval-trex/libsqlite3.so.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libz.so.O0.elf --tgt eval-dataset/eval-trex/libz.so.O3.elf --fout cmp-ret/eval-trex/libz.so.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/openssl101f.O0.elf --tgt eval-dataset/eval-trex/openssl101f.O3.elf --fout cmp-ret/eval-trex/openssl101f.O0vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.cmp.O2.elf --tgt eval-dataset/eval-how-help/diff37.cmp.O3.elf --fout cmp-ret/eval-how-help/diff37.cmp.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.diff.O2.elf --tgt eval-dataset/eval-how-help/diff37.diff.O3.elf --fout cmp-ret/eval-how-help/diff37.diff.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.diff3.O2.elf --tgt eval-dataset/eval-how-help/diff37.diff3.O3.elf --fout cmp-ret/eval-how-help/diff37.diff3.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/diff37.sdiff.O2.elf --tgt eval-dataset/eval-how-help/diff37.sdiff.O3.elf --fout cmp-ret/eval-how-help/diff37.sdiff.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/find47.find.O2.elf --tgt eval-dataset/eval-how-help/find47.find.O3.elf --fout cmp-ret/eval-how-help/find47.find.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/find47.locate.O2.elf --tgt eval-dataset/eval-how-help/find47.locate.O3.elf --fout cmp-ret/eval-how-help/find47.locate.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-how-help/find47.xargs.O2.elf --tgt eval-dataset/eval-how-help/find47.xargs.O3.elf --fout cmp-ret/eval-how-help/find47.xargs.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libcurl460.so.O2.elf --tgt eval-dataset/eval-trex/libcurl460.so.O3.elf --fout cmp-ret/eval-trex/libcurl460.so.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libgmp620.so.O2.elf --tgt eval-dataset/eval-trex/libgmp620.so.O3.elf --fout cmp-ret/eval-trex/libgmp620.so.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libmagick7.so.O2.elf --tgt eval-dataset/eval-trex/libmagick7.so.O3.elf --fout cmp-ret/eval-trex/libmagick7.so.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libsqlite3.so.O2.elf --tgt eval-dataset/eval-trex/libsqlite3.so.O3.elf --fout cmp-ret/eval-trex/libsqlite3.so.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/libz.so.O2.elf --tgt eval-dataset/eval-trex/libz.so.O3.elf --fout cmp-ret/eval-trex/libz.so.O2vsO3.pkl
+python3 py-scripts/compare.py --src eval-dataset/eval-trex/openssl101f.O2.elf --tgt eval-dataset/eval-trex/openssl101f.O3.elf --fout cmp-ret/eval-trex/openssl101f.O2vsO3.pkl

@@ -1,0 +1,6 @@
+matplotlib
+numpy
+protobuf==4.24.1
+pyelftools==0.29
+scipy
+tqdm
